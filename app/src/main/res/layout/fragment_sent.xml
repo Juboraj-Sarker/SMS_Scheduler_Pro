@@ -3,34 +3,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginBottom="55dp"
     android:orientation="vertical"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context="com.juborajsarker.smsschedulerpro.fragment.SentFragment">
 
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:layout_alignParentTop="true"
-        android:layout_below="@id/toolbar">
-
-
-
-
-        <ListView
+    <ListView
             android:id="@+id/sent_LV"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="6">
+            android:layout_weight="1">
 
-        </ListView>
+    </ListView>
 
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="65dp"
+            android:layout_height="wrap_content"
             android:orientation="horizontal">
 
             <android.support.design.widget.FloatingActionButton
@@ -52,4 +41,4 @@
 
     </LinearLayout>
 
-</LinearLayout>
+
